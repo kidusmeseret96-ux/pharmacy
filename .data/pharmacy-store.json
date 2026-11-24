@@ -1,0 +1,140 @@
+{
+  "ownerUsername": "owner_main",
+  "ownerPasswordHash": "b8a11ff88876b6cfe118b13f1226cc16:3593e76306f8c1872acab1493051bc1138b31f66b41871170a36055f117dba5e130455c4de5e1e33aa2916bf6424032b164bcf29e6ca1c37cc4fc43bcf3249d7",
+  "settings": {
+    "clinicName": "YOYA Pharmacy",
+    "ownerName": "Pharmacy Owner",
+    "licenseNumber": "",
+    "currencySymbol": "Br",
+    "taxRatePercent": 0,
+    "receiptFooter": "Keep all prescription medicines out of reach of children. Thank you!",
+    "alertSoundEnabled": true,
+    "calendarMode": "both",
+    "dateOffsetDays": 0
+  },
+  "drugKinds": [
+    {
+      "id": "tablet",
+      "label": "Tablet",
+      "unitLabel": "Tablets / Strips / Boxes",
+      "iconKey": "tablet"
+    },
+    {
+      "id": "capsule",
+      "label": "Capsule",
+      "unitLabel": "Capsules / Strips / Boxes",
+      "iconKey": "capsule"
+    },
+    {
+      "id": "injection",
+      "label": "Needle / Injection",
+      "unitLabel": "Vials / Pens",
+      "iconKey": "injection"
+    },
+    {
+      "id": "syrup",
+      "label": "Syrup / Liquid",
+      "unitLabel": "Bottles",
+      "iconKey": "syrup"
+    },
+    {
+      "id": "inhaler",
+      "label": "Inhaler",
+      "unitLabel": "Canisters",
+      "iconKey": "inhaler"
+    },
+    {
+      "id": "cream",
+      "label": "Topical Cream",
+      "unitLabel": "Tubes",
+      "iconKey": "cream"
+    },
+    {
+      "id": "drops",
+      "label": "Eye / Ear Drops",
+      "unitLabel": "Dropper Vials",
+      "iconKey": "drops"
+    },
+    {
+      "id": "suppository",
+      "label": "Suppository",
+      "unitLabel": "Packs",
+      "iconKey": "suppository"
+    }
+  ],
+  "drugs": [],
+  "staff": [],
+  "attendanceQr": {
+    "clockInToken": "0500933cbf01fd1cf10b157a",
+    "clockOutToken": "6f4a2e665a523062269eaefb"
+  },
+  "attendance": [],
+  "payrollProfiles": [],
+  "payrollPayments": [],
+  "transactions": [],
+  "alerts": [],
+  "shiftCloses": [],
+  "expenses": [],
+  "suppliers": [],
+  "supplierInvoices": [],
+  "auditLog": [
+    {
+      "id": "aud_c7ff8b5c",
+      "seq": 4,
+      "timestamp": "2026-11-24T16:01:28.841Z",
+      "actorId": "owner_primary",
+      "actorName": "Pharmacy Owner",
+      "actorRole": "owner",
+      "action": "OWNER_PASSWORD_RECOVERED",
+      "targetType": "account",
+      "targetName": "owner_main",
+      "afterSummary": "Owner password reset via master recovery passcode",
+      "prevHash": "482805ff8ca7a84c02a8e48c8d944f5e6b01e0834fec040a31d793a4c7fc5bcd",
+      "entryHash": "e17dfba74137557a574650b0f21ec4e1a5966a100305d3e038aabe1c0e4a34ca"
+    },
+    {
+      "id": "aud_fafb50f7",
+      "seq": 3,
+      "timestamp": "2026-11-24T16:01:28.778Z",
+      "actorId": "owner_primary",
+      "actorName": "Pharmacy Owner",
+      "actorRole": "owner",
+      "action": "OWNER_CREDENTIALS_UPDATED",
+      "targetType": "account",
+      "targetName": "yoyaowner",
+      "beforeSummary": "Username=owner",
+      "afterSummary": "Username=yoyaowner, Password updated",
+      "prevHash": "e6f6e4d3fa8f273730de42695607d1bf6044b87fe9df9f6fa5f858e141999b33",
+      "entryHash": "482805ff8ca7a84c02a8e48c8d944f5e6b01e0834fec040a31d793a4c7fc5bcd"
+    },
+    {
+      "id": "aud_a0198182",
+      "seq": 2,
+      "timestamp": "2026-11-24T16:01:28.611Z",
+      "actorId": "owner_primary",
+      "actorName": "Pharmacy Owner",
+      "actorRole": "owner",
+      "action": "OWNER_ACCOUNT_CLAIMED",
+      "targetType": "account",
+      "targetName": "owner",
+      "afterSummary": "Owner account claimed (YOYA Pharmacy)",
+      "prevHash": "4ce6726622a2038074be4c3fa8f907f6e7bddc876effdcde62aca92921a45043",
+      "entryHash": "e6f6e4d3fa8f273730de42695607d1bf6044b87fe9df9f6fa5f858e141999b33"
+    },
+    {
+      "id": "aud_2f513275",
+      "seq": 1,
+      "timestamp": "2026-11-24T16:01:08.356Z",
+      "actorId": "system",
+      "actorName": "System Bootstrap",
+      "actorRole": "owner",
+      "action": "SYSTEM_INITIALIZED",
+      "targetType": "pharmacy",
+      "targetName": "YOYA Pharmacy",
+      "afterSummary": "Tamper-proof SHA-256 ledger initialized.",
+      "prevHash": "GENESIS_APOTHECA_RX",
+      "entryHash": "4ce6726622a2038074be4c3fa8f907f6e7bddc876effdcde62aca92921a45043"
+    }
+  ],
+  "processedSyncIds": []
+}
